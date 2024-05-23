@@ -1,29 +1,52 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Lato', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('background.webp') no-repeat center center fixed; /* Substitua 'path/to/your/image.png' pelo caminho correto da imagem */
-    background-size: cover;
     color: #333;
 }
 
-header {
-    background: url('cabecalho.webp') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 5em 0; /* Aumente o padding se quiser um cabeçalho mais alto */
+.header {
+    position: relative;
+    height: 100vh;
+    background: url('path/to/your/header-image.png') no-repeat center center/cover;
 }
 
-header h1 {
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona uma sobreposição para melhorar a legibilidade do texto */
-    display: inline-block;
-    padding: 0.5em 1em;
-    border-radius: 5px;
+.header .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+nav.navbar {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav.navbar a.nav-link {
+    color: white;
+    padding: 14px 20px;
+}
+
+nav.navbar a.nav-link:hover {
+    color: #007bff;
+    background-color: transparent;
+}
+
+main {
+    padding: 2em 0;
 }
 
 footer {
-    background-color: rgba(0, 123, 255, 0.9); /* Transparência para combinar com o plano de fundo */
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 1em 0;
