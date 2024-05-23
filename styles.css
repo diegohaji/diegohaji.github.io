@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('background.webp') no-repeat center center fixed; /* Substitua 'path/to/your/image.png' pelo caminho correto da imagem */
+    background: url('background.webp') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
@@ -12,23 +12,23 @@ header {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 5em 0; /* Aumente o padding se quiser um cabeçalho mais alto */
+    padding: 5em 0;
+    min-height: 300px; /* Defina uma altura mínima para o cabeçalho */
 }
 
 header h1 {
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona uma sobreposição para melhorar a legibilidade do texto */
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 0.5em 1em;
     border-radius: 5px;
 }
 
 footer {
-    background-color: rgba(0, 123, 255, 0.9); /* Transparência para combinar com o plano de fundo */
+    background-color: rgba(0, 123, 255, 0.9);
     color: white;
     text-align: center;
     padding: 1em 0;
 }
-
 
 nav {
     margin: 0;
@@ -50,7 +50,7 @@ nav a:hover {
 
 section {
     padding: 2em;
-    background-color: rgba(255, 255, 255, 0.9); /* Transparência para destacar o texto */
+    background-color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -64,7 +64,7 @@ h2, h3 {
 }
 
 h3.small-header {
-    font-size: 1.25em; /* Ajuste o tamanho conforme necessário */
+    font-size: 1.25em;
 }
 
 ul {
