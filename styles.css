@@ -46,6 +46,10 @@ h2, h3 {
     color: #0056b3;
 }
 
+h3.small-header {
+    font-size: 1.25em; /* Ajuste o tamanho conforme necessário */
+}
+
 ul {
     list-style-type: disc;
     padding-left: 1.5em;
@@ -66,4 +70,8 @@ ul li a:hover {
 
 footer p {
     margin: 0;
+}
+
+.font-grande {
+    font-size: 1.5em;
 }
