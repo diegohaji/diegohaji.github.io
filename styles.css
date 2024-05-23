@@ -7,12 +7,28 @@ body {
     color: #333;
 }
 
-header, footer {
+header {
+    background: url('cabecalho.webp') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5em 0; /* Aumente o padding se quiser um cabeçalho mais alto */
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona uma sobreposição para melhorar a legibilidade do texto */
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+footer {
     background-color: rgba(0, 123, 255, 0.9); /* Transparência para combinar com o plano de fundo */
     color: white;
     text-align: center;
     padding: 1em 0;
 }
+
 
 nav {
     margin: 0;
