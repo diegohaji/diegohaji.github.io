@@ -13,7 +13,7 @@ header {
     color: white;
     text-align: center;
     padding: 5em 0;
-    min-height: 300px; /* Defina uma altura mínima para o cabeçalho */
+    min-height: 300px;
 }
 
 header h1 {
@@ -23,14 +23,8 @@ header h1 {
     border-radius: 5px;
 }
 
-footer {
-    background-color: rgba(0, 123, 255, 0.9);
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
-
 nav {
+    background-color: rgba(255, 255, 255, 0.9); /* Ajusta a transparência */
     margin: 0;
     padding: 0;
 }
@@ -83,6 +77,13 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: rgba(0, 123, 255, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
 footer p {
