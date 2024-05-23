@@ -38,13 +38,17 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section p, section ul {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
 h2, h3 {
     color: #0056b3;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc;
+    padding-left: 1.5em;
 }
 
 ul li {
