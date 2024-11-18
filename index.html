@@ -4,121 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Diego Campos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        header {
-            background: linear-gradient(45deg, #007bff, #0056b3);
-            color: white;
-        }
-        .navbar {
-            position: fixed;
-            width: 100%;
-            z-index: 10;
-        }
-        .navbar-nav .nav-link {
-            margin-right: 10px;
-            transition: color 0.3s;
-        }
-        .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
-            color: #007bff;
-            font-weight: bold;
-        }
-        section {
-            padding: 50px 0;
-        }
-        .card {
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-        }
-        footer {
-            background-color: #0056b3;
-            color: white;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
-    <header class="text-center py-5">
+    <header class="bg-primary text-white text-center py-5">
         <h1>Portfólio de Diego Campos</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Diego Campos</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre Mim</a></li>
-                <li class="nav-item"><a class="nav-link" href="#educacao">Educação</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certificacoes">Certificações</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+    <a class="navbar-brand" href="#">Diego Campos</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+					<li class="nav-item"><a class="nav-link" href="#educacao">Educação</a></li>
+					<li class="nav-item"><a class="nav-link" href="#experiencia">Experiência</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#certificacoes">Certificações</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
 
     <main class="container my-5">
         <section id="sobre">
-            <h2 class="text-center">Sobre Mim</h2>
-            <p>Olá! Sou Diego Campos, especialista em áreas como 3D Modeling, Deep Learning, e mais. Tenho paixão por desafios técnicos e projetos inovadores.</p>
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou Diego Campos, um especialista com experiência em:</p>
+            <ul>
+                <li>3D modeling</li>
+                <li>Unreal Engine 4</li>
+                <li>Deep learning</li>
+            </ul>
+            <p>Trabalhei na criação de uma base de dados de sinais de trânsito brasileiros usando Blender, treinei com Darknet e YOLOv3, e testei em um ambiente virtual desenvolvido com Unreal Engine 4 para minha tese. Tenho interesse em trabalhar com machine learning e deep learning. Completei um curso isolado de pós-graduação em NLP na UFMG. Atualmente, estou trabalhando em modelos de segmentação semântica em um projeto com a Petrobras. Também trabalhei com modelos de Federated Learning, focando na precisão de modelos com dados não independentemente e identicamente distribuídos. Estou sempre ansioso para aprender e desenvolver minhas habilidades nessa área.</p>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>3D Modeling</li>
+                <li>Virtual Environment Creation and Simulation</li>
+                <li>Programming: C, Java, Python, C#</li>
+                <li>Deep Learning: PyTorch, YOLOv3, Darknet API</li>
+                <li>Federated Learning: Flower API</li>
+            </ul>
         </section>
-
+        <section id="educacao">
+            <h2>Educação</h2>
+            <ul>
+                <li>M.Sc. in Computer Science, UFMG (2020-2024)</li>
+                <li>B.Eng. in Computer Engineering, CEFET-MG (2014-2019)</li>
+            </ul>
+        </section>
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <ul>
+                
+				<h3 class="small-header">ML OPS</h3>
+                <p><strong>Petrobras IAGEO, Brazil (2021-2024)</strong></p>
+                <li>
+					<p>Estou atualmente envolvido em um projeto com a Petrobras-IAGEO no DCC UFMG, trabalhando com modelos de segmentação semântica e pesquisa de porosidade.</p>
+                </li>
+                
+				<h3 class="small-header">Semantic Segmentation</h3>
+				<p><strong>CadCovid, Brazil (2020-2021)</strong></p>
+                 <li>
+					<p>Trabalhei com modelos de segmentação semântica no projeto CadCovid para analisar imagens pulmonares de raio-X, como suporte ao diagnóstico.</p>
+                </li>
+                
+				<h3 class="small-header">3D Generalist</h3>
+				<p><strong>Niematrix, Canada (2017-2019)</strong></p>
+				<li>
+					<p>Trabalhei como generalista 3D, focando em modelagem, texturização e animação de personagens, além de testá-los no Unreal Engine 4.</p>
+                </li>
+            </ul>
+        </section>
         <section id="portfolio">
-            <h2 class="text-center">Portfólio</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="project1-thumbnail.jpg" class="card-img-top" alt="Projeto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Base de Dados de Sinais</h5>
-                            <p class="card-text">Desenvolvimento de base de dados de sinais de trânsito brasileiros.</p>
-                            <a href="https://github.com/diegohaji/Base-de-dados-Transito-Brasileiro" target="_blank" class="btn btn-primary">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="project2-thumbnail.jpg" class="card-img-top" alt="Projeto 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Simulações Unreal Engine 4</h5>
-                            <p class="card-text">Simulações no Unreal Engine 4 para ambientes virtuais.</p>
-                            <a href="https://drive.google.com/drive/folders/1JJtgnmXCia-TLpZib3jF8-FRgk4uovGN" target="_blank" class="btn btn-primary">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="project3-thumbnail.jpg" class="card-img-top" alt="Projeto 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Toy Model Stable Diffusion</h5>
-                            <p class="card-text">Implementação simples de um modelo Stable Diffusion.</p>
-                            <a href="https://github.com/diegohaji/stable-diffusion-image-generator" target="_blank" class="btn btn-primary">Ver Projeto</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2>Portfólio</h2>
+            <p>Aqui estão alguns dos meus projetos:</p>
+            <ul>
+                <li>
+                    Base de Dados de Sinais de Trânsito Brasileiros: Desenvolvi uma base de dados abrangente de sinais de trânsito brasileiros para uso em simulações de veículos autônomos.
+                    <a href="https://github.com/diegohaji/Base-de-dados-Transito-Brasileiro" target="_blank">Link para o projeto</a>
+                </li>
+                <li>
+                    Simulações no Unreal Engine 4: Criei simulações no Unreal Engine 4, incluindo um projeto que ganhou o 3º lugar em uma feira de ciências com uma simulação de radiação de corpo negro.
+                    <a href="https://drive.google.com/drive/folders/1JJtgnmXCia-TLpZib3jF8-FRgk4uovGN" target="_blank">Link para o projeto</a>
+                </li>
+				<li>
+                    Toy model do modelo stable diffusion para uso simples.
+                    <a href="https://github.com/diegohaji/stable-diffusion-image-generator" target="_blank">Link para o projeto</a>
+                </li>
+				<li>
+                    Toy model do chatGPT em um notebook para uso simples.
+                    <a href="https://github.com/diegohaji/ChatGPTCodeAssistant" target="_blank">Link para o projeto</a>
+                </li>
+				<li>
+                    Notebook para a geração de documentação de códigos python utilizando Llama3.2_Instruct model. Execução local utilizando a biblioteca huggingface.
+                    <a href="https://github.com/diegohaji/Documentacao_Markdown_Llama" target="_blank">Link para o projeto</a>
+                </li>
+				<li>
+                    Notebook com interface simples para um assistente de FAQ utilizando Llama3.2_Instruct model. Você pode adicionar o seu proprio FAQ e o modelo atém-se a ele. Execução local utilizando a biblioteca huggingface.
+                    <a href="https://github.com/diegohaji/Faq_assistent" target="_blank">Link para o projeto</a>
+                </li>
+            </ul>
+        </section>
+        <section id="certificacoes">
+            <h2>Certificações</h2>
+            <ul>
+                <li>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/5L3JMZFR6X26?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">Coursera Deep Learning Specialization</a>
+                </li>
+                <li>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/YTHEUY3GC28P?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">Generative AI for Data Analysts</a>
+                </li>
+                <li>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/DXT3TNBUGSXF?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">Large Language Model Operation (LLMOps)</a>
+                </li>
+                <li>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/LMUAPDHHFVTL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" target="_blank">Introduction to Generative AI Learning Path</a>
+                </li>
+                <li>
+                    <a href="https://cursos.alura.com.br/user/diegohaji/fullCertificate/661f67f9d18b761913785e326290c7b0" target="_blank">Alura</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através dos seguintes meios:</p>
+            <ul>
+                <li>Email: <a href="mailto:diegohaji@gmail.com">diegohaji@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/diego-haji-carvalho-campos" target="_blank">linkedin.com/in/diego-haji-carvalho-campos</a></li>
+            </ul>
         </section>
     </main>
-
-    <footer class="text-center py-3">
+    <footer class="bg-primary text-white text-center py-3">
         <p>&copy; 2024 Diego Campos. Todos os direitos reservados.</p>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
